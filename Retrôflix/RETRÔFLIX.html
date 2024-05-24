@@ -20,6 +20,15 @@ pic = "contra-ju.png" }
 document.getElementById('fotos').src = pic; }
 </script>
 <script>
+function cps(ok) {
+var pic;
+if (ok == 0) {
+pic = "dt.png"
+} else {
+pic = "contradt.png" }
+document.getElementById('ftt').src = pic; }
+</script>
+<script>
 function capas(ok) {
 var pic;
 if (ok == 0) {
@@ -307,6 +316,12 @@ a.ex2:hover, a.ex2:active {font-size: 150%;}
 	<ol>
 	<a data-bs-toggle="collapse" href="#Dirty-Dance-:-Ritmo-Quente" role="button" aria-expanded="false" aria-controls="Dirty-Dance-:-Ritmo-Quente" style="color: white; text-decoration: none;">    <li>Dirty Dance: Ritmo Quente</li></a>
         <div class="collapse" id="Dirty-Dance-:-Ritmo-Quente">
+	<img img id="ftt" src="dt.png" width="180" height="180">
+	<p>
+	<button type="button" onclick="cps(0)">Frente</button>
+	<button type="button" onclick="cps(1)">Verso</button>
+	<!--AQUI ESTÁ A MUDANÇA DE IMAGEM -->
+	</p>
 <p>"Dirty Dancing: Ritmo Quente" é um filme de romance e dança lançado em 1987, "Baby" Houseman, interpretada por Jennifer Grey, uma jovem de classe média alta que passa suas férias com sua família em um resort nas montanhas Catskill. Lá, ela conhece Johnny Castle, interpretado por Patrick Swayze, o instrutor de dança do resort, que a convida para ser sua parceira de dança.
 
 Conforme Baby e Johnny começam a ensaiar juntos, eles desenvolvem uma conexão especial e se apaixonam, apesar das diferenças de classe social e das objeções de suas famílias.</p>
