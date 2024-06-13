@@ -1,0 +1,25 @@
+1. TROCAR O NOME DAS FUNÇÕES
+2. TROCAR OS GET'S
+3. TROCAR AS ID'S
+4. TROCAR O NOME DAS PNG'S
+
+
+<script>
+function capa7_3(ok) {
+var pic;
+if (ok == 0) {
+pic = "CapaPesadelo.png"
+} else {
+pic = "ContraCapaPesadelo.png" }
+document.getElementById('capa7_3').src = pic; }
+</script>
+
+
+<ol>
+<a data-bs-toggle="collapse" href="#Pesadelo" role="button" aria-expanded="false" aria-controls="Pesadelo" style="color: white; text-decoration: none;">    <li>A Hora do Pesadelo</li></a>
+<div class="collapse" id="Pesadelo">
+<img img id="capa7_3" src="CapaPesadelo.png" width="180" height="180">
+<p>
+<button type="button" onclick="capa7_3(0)">Frente</button>
+<button type="button" onclick="capa7_3(1)">Verso</button>
+</p>
